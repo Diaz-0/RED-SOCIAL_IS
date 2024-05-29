@@ -1,0 +1,38 @@
+.solicitud-amistad {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .solicitud-amistad p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .solicitud-amistad .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .solicitud-amistad .botones button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .solicitud-amistad .botones button.aceptar {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .solicitud-amistad .botones button.rechazar {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

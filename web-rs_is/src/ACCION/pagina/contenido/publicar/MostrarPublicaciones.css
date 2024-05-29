@@ -1,0 +1,45 @@
+.mostrar-publicaciones {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mostrar-publicaciones .mensaje-error {
+    color: red;
+    text-align: center;
+  }
+  
+  .mostrar-publicaciones .no-publicaciones {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .mostrar-publicaciones .publicacion {
+    background: #180202;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .mostrar-publicaciones .imagen-publicacion {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mostrar-publicaciones .contenido-publicacion {
+    padding: 20px;
+  }
+  
+  .mostrar-publicaciones .contenido-publicacion h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .mostrar-publicaciones .contenido-publicacion .fecha-publicacion {
+    font-size: 0.9em;
+    color: #888;
+  }
+  

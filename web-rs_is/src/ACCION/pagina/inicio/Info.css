@@ -1,0 +1,113 @@
+/* Info.css */
+
+body {
+  background: #121212; /* Fondo oscuro */
+  background: url(../../../../public/Imagenes/word/Fondo-tigre.jpg) no-repeat center center fixed;
+  background-size: cover; /* Cubrir toda la pantalla */
+  color: #fff; /* Texto blanco para mejor contraste */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evitar scroll horizontal */
+}
+
+.info-container {
+  max-width: 900px; /* Aumentado para mayor impacto */
+  margin: 40px auto; /* Añadido margen para separar del borde superior */
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+  animation: fadeIn 1.5s ease-in-out; /* Animación de entrada */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.info-header {
+  padding: 20px;
+  border-bottom: 2px solid #3FD0F4;
+  margin-bottom: 30px;
+}
+
+.info-header h1 {
+  font-size: 48px; /* Tamaño de fuente aumentado */
+  margin: 0;
+  color: #3FD0F4; /* Color principal */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+}
+
+.info-content h2 {
+  font-size: 32px; /* Tamaño de fuente aumentado */
+  color: #3FD0F4;
+  margin-top: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+  position: relative;
+}
+
+.info-content h2:before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #3FD0F4;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info-content p,
+.info-content ul {
+  text-align: left;
+  font-size: 20px; /* Tamaño de fuente aumentado */
+  line-height: 1.8; /* Espaciado aumentado */
+}
+
+.info-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-content ul li {
+  background: #2c2c2c; /* Fondo ligeramente más claro */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+  transition: transform 0.3s ease;
+}
+
+.info-content ul li:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.join-link {
+  color: #3FD0F4;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.join-link:hover {
+  border-bottom: 2px solid #3FD0F4;
+  color: #1cb0d9;
+}
+
+@media (max-width: 600px) {
+  .info-header h1 {
+    font-size: 32px;
+  }
+
+  .info-content h2 {
+    font-size: 24px;
+  }
+
+  .info-content p,
+  .info-content ul {
+    font-size: 16px;
+  }
+}

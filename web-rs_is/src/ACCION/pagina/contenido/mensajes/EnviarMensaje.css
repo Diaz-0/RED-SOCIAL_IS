@@ -1,0 +1,64 @@
+.enviar-mensaje {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enviar-mensaje h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .enviar-mensaje input[type="text"],
+  .enviar-mensaje textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .enviar-mensaje textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .enviar-mensaje button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enviar-mensaje button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mensaje-exito,
+  .mensaje-error {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .mensaje-exito {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .mensaje-error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

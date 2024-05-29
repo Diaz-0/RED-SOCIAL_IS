@@ -1,0 +1,75 @@
+.crear-publicacion {
+  background: #1e1e1e; /* Fondo negro para mayor impacto */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Texto blanco para contrastar con el fondo */
+}
+
+.form-publicacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea-publicacion {
+  width: 100%;
+  height: 150px; /* Aumentamos el tamaño del textarea para mejor visualización */
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #333; /* Fondo más oscuro */
+  color: #fff; /* Texto blanco */
+  margin-bottom: 20px;
+  font-size: 16px; /* Tamaño de fuente aumentado */
+  resize: none;
+}
+
+.input-archivo {
+  margin-bottom: 20px;
+}
+
+.boton-publicar {
+  background-color: #3FD0F4;
+  color: #fff;
+  border: none;
+  padding: 15px 20px; /* Aumentamos el padding para resaltar el botón */
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px; /* Tamaño de fuente aumentado */
+}
+
+.boton-publicar:hover {
+  background-color: #35b1cc;
+}
+
+.mensaje-publicacion {
+  margin-top: 20px; /* Mayor separación del mensaje de publicación */
+  font-size: 16px; /* Tamaño de fuente aumentado */
+  color: #ccc; /* Color de texto gris claro */
+  text-align: center;
+}
+
+.input-archivo {
+  margin-bottom: 20px;
+  display: inline-block;
+  background-color: #3FD0F4; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  padding: 15px 20px; /* Espaciado interno del botón */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+.input-archivo:hover {
+  background-color: #35b1cc; /* Cambio de color al pasar el mouse */
+}
+
+.input-archivo:focus {
+  outline: none; /* Quitamos el borde al hacer foco */
+}

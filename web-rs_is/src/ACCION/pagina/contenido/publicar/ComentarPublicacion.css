@@ -1,0 +1,37 @@
+.comentar-publicacion {
+    margin-top: 20px;
+  }
+  
+  .comentar-publicacion h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .comentar-publicacion form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comentar-publicacion textarea {
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comentar-publicacion button {
+    background-color: #0077C0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .comentar-publicacion button:hover {
+    background-color: #005b8e;
+  }
+  
+  .comentar-publicacion .message {
+    margin-top: 10px;
+    color: green;
+  }
+  

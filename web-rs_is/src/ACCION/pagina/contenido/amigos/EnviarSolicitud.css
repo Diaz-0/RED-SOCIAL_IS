@@ -1,0 +1,49 @@
+.enviar-solicitud {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #140202;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.enviar-solicitud h2 {
+  text-align: center;
+}
+
+.enviar-solicitud input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.enviar-solicitud button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0077C0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enviar-solicitud button:hover {
+  background-color: #005fa3;
+}
+
+.mensaje-exito {
+  color: green;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mensaje-error {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
+}

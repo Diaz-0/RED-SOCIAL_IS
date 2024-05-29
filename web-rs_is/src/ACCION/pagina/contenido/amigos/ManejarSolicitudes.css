@@ -1,0 +1,48 @@
+.manejar-solicitudes {
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.solicitud {
+  background-color: #180101;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.solicitud h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.solicitud p {
+  margin: 0;
+  padding: 0;
+}
+
+.solicitud .botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.solicitud .botones button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.solicitud .botones button.accept {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.solicitud .botones button.reject {
+  background-color: #dc3545;
+  color: #fff;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merienda';
+  background: url(../../../../public/Imagenes/word/Fondo-tigre.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.info {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.redes a img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+section {
+  padding-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+section h1 {
+  font-size: 100px;
+  color: #fff;
+}
+
+section a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+section a:hover {
+  transition: 1s;
+  background-color: #000;
+}
